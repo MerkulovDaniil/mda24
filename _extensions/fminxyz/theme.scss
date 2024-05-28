@@ -1,0 +1,52 @@
+/*-- scss:defaults --*/
+
+$example-border-callout: #381885;
+$example-background-callout: rgba(114,83,237,0.2);
+$question-border-callout: #183385;
+$question-background-callout: rgba(44,132,250,0.2);
+$theorem-border-callout: #026e57;
+$theorem-background-callout: rgba(65,214,147,0.2);
+
+/* For preventing top cropping for high formulas */
+.katex-display { 
+  overflow: auto hidden ;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}  
+
+/* For preventing tags to be hide/collapsed on small screens */
+.katex-display {
+  > .katex > .katex-html > .tag {
+    padding-left: 10px !important;
+    margin-left: 10px !important;
+    right: 0 !important;
+
+    @media (min-width: 613px) {
+      position: absolute !important;
+    }
+
+    @media (max-width: 612px) {
+      position: static !important;
+    }
+  }
+}
+
+// figure display
+.figure {
+  text-align: center;
+  text-indent: 0;
+}
+
+.figure-img{
+  border-radius: 50%;
+  max-width: 300px;
+}
+
+// Highlight table row when hover
+.quarto-listing-table.table {
+  tr {
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.05); // Light gray background on hover
+    }
+  }
+}

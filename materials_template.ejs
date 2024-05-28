@@ -1,0 +1,30 @@
+```{=html}
+<table class="quarto-listing-table table">
+    <tbody class="list">
+    <!-- <% 
+        // Sort items by the number property
+        items.sort((a, b) => parseFloat(a.number) - parseFloat(b.number));
+        for (const item of items) { 
+    %> -->
+        <tr data-index="<%= item.number %>">
+            <td>
+                <span class="listing-title"><%= item.title %></span>
+            </td>
+            <td>
+                <span class="listing-file"><a href="<%= item.materials %>">📜</a></span>
+            </td>
+            <td>
+                <span class="listing-file"><a href="<%= item.notes %>">📝</a></span>
+            </td>
+            <td>
+                <% if(item.colab) { %>
+                    <span class="listing-file"><a href="<%= item.colab %>">🔗</a></span>
+                <% } else { %>
+                    <span class="listing-file"></span>
+                <% } %>
+            </td>
+        </tr>
+    <% } %>
+    </tbody>
+  </table>
+```
