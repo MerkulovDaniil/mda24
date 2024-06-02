@@ -21,17 +21,15 @@ website:
         - students.md
     title: false
     logo: logo.svg
-    logo-alt: mipt23.fmin.xyz
+    logo-alt: mda24.fmin.xyz
     tools:
       - icon: github
-        href: https://github.com/MerkulovDaniil/mipt23
-      - icon: youtube
-        href: https://www.youtube.com/watch?v=duPZb4AGz3c&list=PLQSHEO58cjmMt8PY2H0ObJJ6FKbn0PoBx
+        href: https://github.com/MerkulovDaniil/mda24
       - icon: telegram
-        href: https://t.me/mipt23_fmin
+        href: https://t.me/+CuZahRNmtEA5ZmUy
       - icon: gem
         href: https://fmin.xyz
-  repo-url: https://github.com/MerkulovDaniil/mipt23
+  repo-url: https://github.com/MerkulovDaniil/mda24
   repo-branch: main
   repo-actions: [edit]
   search: 

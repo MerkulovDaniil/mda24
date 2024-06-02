@@ -1,103 +1,131 @@
-- title: Вводное занятие
-  number: 1
-  materials: /presentations/intro_info.pdf
-  notes: /notes/intro_info.pdf
+- class: 1
+  presentation: /presentations/1.pdf
+  notes: /presentations/1.pdf
+  topics:
+    - title: Обзор приложений задач оптимизации, реальных постановок задач оптимизации и результатов
+      practicum_title: Задача наименьших квадратов на данных всемирного банка.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Real_world_LLS_exercise.ipynb
+    - title: Введение в библиотеку CVXPY
+      practicum_title: Практика с библиотекой CVXPY
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/CVXPY_Exercise.ipynb
+    - title: Введение в векторы, матрицы, тензоры
+      practicum_title: Простые упражнения с матрицами.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Simple_nla_theoretical_questions.ipynb
 
-- title: Обзор приложений задач оптимизации, реальных постановок задач оптимизации и результатов
-  number: 1.1
-  materials: /presentations/1.pdf
-  notes: /notes/1.pdf
+- class: 2
+  presentation: /presentations/1.pdf
+  notes: /presentations/1.pdf
+  topics:
+    - title: Обзор приложений задач оптимизации, реальных постановок задач оптимизации и результатов
+      practicum_title: Задача наименьших квадратов на данных всемирного банка.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Real_world_LLS_exercise.ipynb
+    - title: Введение в библиотеку CVXPY
+      practicum_title: Практика с библиотекой CVXPY
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/CVXPY_Exercise.ipynb
+    - title: Введение в векторы, матрицы, тензоры
+      practicum_title: Простые упражнения с матрицами.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Simple_nla_theoretical_questions.ipynb
 
-- title: Введение в векторы, матрицы, тензоры
-  number: 1.2
-  materials: /presentations/1.pdf
-  notes: /notes/1.pdf
+# - title: Вводное занятие
+#   number: 1
+#   materials: /presentations/intro_info.pdf
+#   notes: /notes/intro_info.pdf
 
-- title: Сингулярное разложение матрицы. Спектр матрицы. Skeleton разложение. Каноническое разложение тензора
-  number: 2.1
-  materials: /presentations/2.pdf
-  notes: /notes/2.pdf
+# - title: Обзор приложений задач оптимизации, реальных постановок задач оптимизации и результатов
+#   number: 1.1
+#   materials: /presentations/1.pdf
+#   notes: /notes/1.pdf
 
-- title: Метод главных компонент
-  number: 3.1
-  materials: /presentations/3.pdf
-  notes: /notes/3.pdf
+# - title: Введение в векторы, матрицы, тензоры
+#   number: 1.2
+#   materials: /presentations/1.pdf
+#   notes: /notes/1.pdf
 
-- title: Матричное дифференцирование
-  number: 3.2
-  materials: /presentations/3.pdf
-  notes: /notes/3.pdf
+# - title: Сингулярное разложение матрицы. Спектр матрицы. Skeleton разложение. Каноническое разложение тензора
+#   number: 2.1
+#   materials: /presentations/2.pdf
+#   notes: /notes/2.pdf
 
-- title: Автоматическое дифференцирование. Вычислительный граф
-  number: 4.1
-  materials: /presentations/4.pdf
-  notes: /notes/4.pdf
+# - title: Метод главных компонент
+#   number: 3.1
+#   materials: /presentations/3.pdf
+#   notes: /notes/3.pdf
 
-- title: Выпуклость. Выпуклые множества
-  number: 4.2
-  materials: /presentations/4.pdf
-  notes: /notes/4.pdf
+# - title: Матричное дифференцирование
+#   number: 3.2
+#   materials: /presentations/3.pdf
+#   notes: /notes/3.pdf
 
-- title: Выпуклые функции. Сильно выпуклые функции
-  number: 4.3
-  materials: /presentations/4.pdf
-  notes: /notes/4.pdf
+# - title: Автоматическое дифференцирование. Вычислительный граф
+#   number: 4.1
+#   materials: /presentations/4.pdf
+#   notes: /notes/4.pdf
 
-- title: Портфельная теория Марковица
-  number: 5.1
-  materials: /presentations/5.pdf
-  notes: /notes/5.pdf
+# - title: Выпуклость. Выпуклые множества
+#   number: 4.2
+#   materials: /presentations/4.pdf
+#   notes: /notes/4.pdf
 
-- title: "Условия оптимальности: безусловная оптимизация и оптимизация с ограничениями типа равенств"
-  number: 5.2
-  materials: /presentations/5.pdf
-  notes: /notes/5.pdf
+# - title: Выпуклые функции. Сильно выпуклые функции
+#   number: 4.3
+#   materials: /presentations/4.pdf
+#   notes: /notes/4.pdf
 
-- title: "Условия оптимальности: оптимизация с ограничениями типа неравенств. Условия Каруша-Куна-Таккера"
-  number: 5.3
-  materials: /presentations/5.pdf
-  notes: /notes/5.pdf
+# - title: Портфельная теория Марковица
+#   number: 5.1
+#   materials: /presentations/5.pdf
+#   notes: /notes/5.pdf
 
-- title: Задача линейного программирования
-  number: 6.1
-  materials: /presentations/6.pdf
-  notes: /notes/6.pdf
+# - title: "Условия оптимальности: безусловная оптимизация и оптимизация с ограничениями типа равенств"
+#   number: 5.2
+#   materials: /presentations/5.pdf
+#   notes: /notes/5.pdf
 
-- title: Симплекс метод
-  number: 6.2
-  materials: /presentations/6.pdf
-  notes: /notes/6.pdf
+# - title: "Условия оптимальности: оптимизация с ограничениями типа неравенств. Условия Каруша-Куна-Таккера"
+#   number: 5.3
+#   materials: /presentations/5.pdf
+#   notes: /notes/5.pdf
 
-- title: Введение в Mixed Integer Programming
-  number: 7.1
-  materials: /presentations/7.pdf
-  notes: /notes/7.pdf
+# - title: Задача линейного программирования
+#   number: 6.1
+#   materials: /presentations/6.pdf
+#   notes: /notes/6.pdf
 
-- title: Методы нулевого порядка и примеры задач глобальной оптимизации
-  number: 7.2
-  materials: /presentations/7.pdf
-  notes: /notes/7.pdf
+# - title: Симплекс метод
+#   number: 6.2
+#   materials: /presentations/6.pdf
+#   notes: /notes/6.pdf
 
-- title: Градиентный спуск. Негладкие задачи. Примеры сходимости градиентного спуска
-  number: 8.1
-  materials: /presentations/8.pdf
-  notes: /notes/8.pdf
+# - title: Введение в Mixed Integer Programming
+#   number: 7.1
+#   materials: /presentations/7.pdf
+#   notes: /notes/7.pdf
 
-- title: Метод Ньютона. Квазиньютоновские методы
-  number: 8.2
-  materials: /presentations/8.pdf
-  notes: /notes/8.pdf
+# - title: Методы нулевого порядка и примеры задач глобальной оптимизации
+#   number: 7.2
+#   materials: /presentations/7.pdf
+#   notes: /notes/7.pdf
 
-- title: Метод стохастического градиентного спуска. Сходимость, батчи, эпохи, расписания
-  number: 9.1
-  materials: /presentations/9.pdf
-  notes: /notes/9.pdf
+# - title: Градиентный спуск. Негладкие задачи. Примеры сходимости градиентного спуска
+#   number: 8.1
+#   materials: /presentations/8.pdf
+#   notes: /notes/8.pdf
 
-- title: Нейронные сети. Ландшафт функции потерь нейронной сети
-  number: 9.2
-  materials: /presentations/9.pdf
-  notes: /notes/9.pdf
+# - title: Метод Ньютона. Квазиньютоновские методы
+#   number: 8.2
+#   materials: /presentations/8.pdf
+#   notes: /notes/8.pdf
 
-- title: "Обучение больших моделей: проблемы, трюки, последние достижения"
-  number: 10
-  materials: /presentations/10.pdf
+# - title: Метод стохастического градиентного спуска. Сходимость, батчи, эпохи, расписания
+#   number: 9.1
+#   materials: /presentations/9.pdf
+#   notes: /notes/9.pdf
+
+# - title: Нейронные сети. Ландшафт функции потерь нейронной сети
+#   number: 9.2
+#   materials: /presentations/9.pdf
+#   notes: /notes/9.pdf
+
+# - title: "Обучение больших моделей: проблемы, трюки, последние достижения"
+#   number: 10
+#   materials: /presentations/10.pdf

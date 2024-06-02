@@ -43,10 +43,8 @@ $theorem-background-callout: rgba(65,214,147,0.2);
 }
 
 // Highlight table row when hover
-.quarto-listing-table.table {
-  tr {
-    &:hover {
-      background-color: rgba(0, 0, 0, 0.05); // Light gray background on hover
-    }
+.quarto-listing-table.table tbody tr {
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05); // Light gray background on hover
   }
 }
