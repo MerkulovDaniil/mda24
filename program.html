@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.467">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -50,7 +50,9 @@ ul.task-list li input[type="checkbox"] {
   "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
-    null
+    "f",
+    "/",
+    "s"
   ],
   "language": {
     "search-no-results-text": "No results",
@@ -60,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -75,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-number','listing-materials','listing-notes',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-class','listing-presentation','listing-notes','listing-topics',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-number","listing-materials","listing-notes"],
+      searchColumns: ["listing-class","listing-presentation","listing-notes","listing-topics"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -113,6 +116,33 @@ ul.task-list li input[type="checkbox"] {
   </script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <meta property="og:title" content="🚀 Программа">
 <meta name="twitter:title" content="🚀 Программа">
 <meta name="twitter:card" content="summary">
@@ -126,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./logo.svg" alt="mipt23.fmin.xyz" class="navbar-logo">
+    <img src="./logo.svg" alt="mda24.fmin.xyz" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -146,9 +176,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools tools-wide">
-    <a href="https://github.com/MerkulovDaniil/mipt23" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://www.youtube.com/watch?v=duPZb4AGz3c&amp;list=PLQSHEO58cjmMt8PY2H0ObJJ6FKbn0PoBx" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-youtube"></i></a>
-    <a href="https://t.me/mipt23_fmin" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-telegram"></i></a>
+    <a href="https://github.com/MerkulovDaniil/mda24" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://t.me/+CuZahRNmtEA5ZmUy" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-telegram"></i></a>
     <a href="https://fmin.xyz" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-gem"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -167,136 +196,48 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div id="listing-materials" class="quarto-listing quarto-listing-container-custom">
+<div>
+
+<h3 class="anchored">Занятие 1  •  <a href="./presentations/1.pdf">📄 Материалы</a>  •  <a href="./presentations/1.pdf">📝 Записи</a></h3>
+
 <table class="quarto-listing-table table" data-quarto-postprocess="true">
 <tbody class="list">
-<tr class="odd" data-index="1">
-<td><span class="listing-title">Вводное занятие</span></td>
-<td><span class="listing-file"><a href="./presentations/intro_info.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/intro_info.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
-</tr>
-<tr class="even" data-index="1.1">
+<tr class="odd">
 <td><span class="listing-title">Обзор приложений задач оптимизации, реальных постановок задач оптимизации и результатов</span></td>
-<td><span class="listing-file"><a href="./presentations/1.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/1.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
+<td><span class="listing-title">Задача наименьших квадратов на данных всемирного банка. <a href="https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Real_world_LLS_exercise.ipynb">🐍 code</a> </span></td>
 </tr>
-<tr class="odd" data-index="1.2">
+<tr class="even">
+<td><span class="listing-title">Введение в библиотеку CVXPY</span></td>
+<td><span class="listing-title">Практика с библиотекой CVXPY <a href="https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/CVXPY_Exercise.ipynb">🐍 code</a> </span></td>
+</tr>
+<tr class="odd">
 <td><span class="listing-title">Введение в векторы, матрицы, тензоры</span></td>
-<td><span class="listing-file"><a href="./presentations/1.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/1.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
-</tr>
-<tr class="even" data-index="2.1">
-<td><span class="listing-title">Сингулярное разложение матрицы. Спектр матрицы. Skeleton разложение. Каноническое разложение тензора</span></td>
-<td><span class="listing-file"><a href="./presentations/2.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/2.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
-</tr>
-<tr class="odd" data-index="3.1">
-<td><span class="listing-title">Метод главных компонент</span></td>
-<td><span class="listing-file"><a href="./presentations/3.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/3.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
-</tr>
-<tr class="even" data-index="3.2">
-<td><span class="listing-title">Матричное дифференцирование</span></td>
-<td><span class="listing-file"><a href="./presentations/3.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/3.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
-</tr>
-<tr class="odd" data-index="4.1">
-<td><span class="listing-title">Автоматическое дифференцирование. Вычислительный граф</span></td>
-<td><span class="listing-file"><a href="./presentations/4.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/4.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
-</tr>
-<tr class="even" data-index="4.2">
-<td><span class="listing-title">Выпуклость. Выпуклые множества</span></td>
-<td><span class="listing-file"><a href="./presentations/4.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/4.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
-</tr>
-<tr class="odd" data-index="4.3">
-<td><span class="listing-title">Выпуклые функции. Сильно выпуклые функции</span></td>
-<td><span class="listing-file"><a href="./presentations/4.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/4.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
-</tr>
-<tr class="even" data-index="5.1">
-<td><span class="listing-title">Портфельная теория Марковица</span></td>
-<td><span class="listing-file"><a href="./presentations/5.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/5.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
-</tr>
-<tr class="odd" data-index="5.2">
-<td><span class="listing-title">Условия оптимальности: безусловная оптимизация и оптимизация с ограничениями типа равенств</span></td>
-<td><span class="listing-file"><a href="./presentations/5.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/5.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
-</tr>
-<tr class="even" data-index="5.3">
-<td><span class="listing-title">Условия оптимальности: оптимизация с ограничениями типа неравенств. Условия Каруша-Куна-Таккера</span></td>
-<td><span class="listing-file"><a href="./presentations/5.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/5.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
-</tr>
-<tr class="odd" data-index="6.1">
-<td><span class="listing-title">Задача линейного программирования</span></td>
-<td><span class="listing-file"><a href="./presentations/6.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/6.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
-</tr>
-<tr class="even" data-index="6.2">
-<td><span class="listing-title">Симплекс метод</span></td>
-<td><span class="listing-file"><a href="./presentations/6.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/6.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
-</tr>
-<tr class="odd" data-index="7.1">
-<td><span class="listing-title">Введение в Mixed Integer Programming</span></td>
-<td><span class="listing-file"><a href="./presentations/7.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/7.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
-</tr>
-<tr class="even" data-index="7.2">
-<td><span class="listing-title">Методы нулевого порядка и примеры задач глобальной оптимизации</span></td>
-<td><span class="listing-file"><a href="./presentations/7.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/7.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
-</tr>
-<tr class="odd" data-index="8.1">
-<td><span class="listing-title">Градиентный спуск. Негладкие задачи. Примеры сходимости градиентного спуска</span></td>
-<td><span class="listing-file"><a href="./presentations/8.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/8.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
-</tr>
-<tr class="even" data-index="8.2">
-<td><span class="listing-title">Метод Ньютона. Квазиньютоновские методы</span></td>
-<td><span class="listing-file"><a href="./presentations/8.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/8.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
-</tr>
-<tr class="odd" data-index="9.1">
-<td><span class="listing-title">Метод стохастического градиентного спуска. Сходимость, батчи, эпохи, расписания</span></td>
-<td><span class="listing-file"><a href="./presentations/9.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/9.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
-</tr>
-<tr class="even" data-index="9.2">
-<td><span class="listing-title">Нейронные сети. Ландшафт функции потерь нейронной сети</span></td>
-<td><span class="listing-file"><a href="./presentations/9.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="./notes/9.pdf">📝</a></span></td>
-<td><span class="listing-file"></span></td>
-</tr>
-<tr class="odd" data-index="10">
-<td><span class="listing-title">Обучение больших моделей: проблемы, трюки, последние достижения</span></td>
-<td><span class="listing-file"><a href="./presentations/10.pdf">📜</a></span></td>
-<td><span class="listing-file"><a href="">📝</a></span></td>
-<td><span class="listing-file"></span></td>
+<td><span class="listing-title">Простые упражнения с матрицами. <a href="https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Simple_nla_theoretical_questions.ipynb">🐍 code</a> </span></td>
 </tr>
 </tbody>
 </table>
+<section id="занятие-2-материалы-записи" class="level3">
+<h3 class="anchored" data-anchor-id="занятие-2-материалы-записи">Занятие 2 • <a href="./presentations/1.pdf">📄 Материалы</a> • <a href="./presentations/1.pdf">📝 Записи</a></h3>
+<table class="quarto-listing-table table" data-quarto-postprocess="true">
+<tbody class="list">
+<tr class="odd">
+<td><span class="listing-title">Обзор приложений задач оптимизации, реальных постановок задач оптимизации и результатов</span></td>
+<td><span class="listing-title">Задача наименьших квадратов на данных всемирного банка. <a href="https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Real_world_LLS_exercise.ipynb">🐍 code</a> </span></td>
+</tr>
+<tr class="even">
+<td><span class="listing-title">Введение в библиотеку CVXPY</span></td>
+<td><span class="listing-title">Практика с библиотекой CVXPY <a href="https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/CVXPY_Exercise.ipynb">🐍 code</a> </span></td>
+</tr>
+<tr class="odd">
+<td><span class="listing-title">Введение в векторы, матрицы, тензоры</span></td>
+<td><span class="listing-title">Простые упражнения с матрицами. <a href="https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Simple_nla_theoretical_questions.ipynb">🐍 code</a> </span></td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -385,6 +326,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/mda24\.fmin\.xyz");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -419,7 +383,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -434,38 +402,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -474,8 +432,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
-      return note.innerHTML;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
@@ -694,24 +659,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/mda24\.fmin\.xyz");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-          if (link.getAttribute("rel") === null) {
-            link.setAttribute("rel", "noopener");
-          }
-      }
-    }
 });
 </script>
 </div> <!-- /content -->
@@ -719,4 +666,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/MerkulovDaniil/mipt23/edit/main/program.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/MerkulovDaniil/mda24/edit/main/program.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
