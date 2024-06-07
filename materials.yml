@@ -34,8 +34,11 @@
       practicum_title: Задачи на производные по матрицам/векторам.
       practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Differentiation_exercise.ipynb
     - title: Автоматическое дифференцирование.
-      practicum_title: Задачи на автоматическое дифференцирование. Взглянем на гессиан без гессиана.
-      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Simple_nla_theoretical_questions.ipynb
+      practicum_title: Задачи на автоматическое дифференцирование.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Autodiff_exercise.ipynb
+    - title: Идея чекпоинтинга активаций для экономии памяти
+      practicum_title: Запихнем в GPU RAM трансформер с большим батчем с помощью чекпоинтинга.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/checkpointing_exercise.ipynb
 
 - class: 4
   presentation: /presentations/4.pdf
