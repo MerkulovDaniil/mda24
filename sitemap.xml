@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mda24.fmin.xyz/students.html</loc>
-    <lastmod>2024-06-02T20:04:33.553Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mda24.fmin.xyz/files/mds.html</loc>
-    <lastmod>2024-06-02T20:04:33.341Z</lastmod>
+    <loc>https://mda24.fmin.xyz/index.html</loc>
+    <lastmod>2024-05-28T14:38:55.335Z</lastmod>
   </url>
   <url>
     <loc>https://mda24.fmin.xyz/program.html</loc>
-    <lastmod>2024-06-02T20:04:33.553Z</lastmod>
+    <lastmod>2024-05-28T14:38:55.338Z</lastmod>
   </url>
   <url>
-    <loc>https://mda24.fmin.xyz/index.html</loc>
-    <lastmod>2024-06-02T20:04:33.413Z</lastmod>
+    <loc>https://mda24.fmin.xyz/students.html</loc>
+    <lastmod>2024-05-28T14:38:55.338Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mda24.fmin.xyz/files/mds.html</loc>
+    <lastmod>2024-05-28T14:38:55.219Z</lastmod>
   </url>
 </urlset>
