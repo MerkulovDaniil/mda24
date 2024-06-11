@@ -46,7 +46,10 @@
   topics:
     - title: Выпуклость. Выпуклые множества.
       practicum_title: 
-      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Real_world_LLS_exercise.ipynb
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Convex_sets_exercise.ipynb
     - title: Выпуклые функции. Сильно выпуклые функции.
       practicum_title: Задачи на производные по матрицам/векторам.
-      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/CVXPY_Exercise.ipynb
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Convex_functions_exercise.ipynb
+    - title: Портфельная теория Марковица.
+      practicum_title: Оптимизация финансового портфеля на примере реальных данных фондового рынка.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Portfolio_optimization.ipynb
