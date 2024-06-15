@@ -50,6 +50,17 @@
     - title: Выпуклые функции. Сильно выпуклые функции.
       practicum_title: Задачи на производные по матрицам/векторам.
       practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Convex_functions_exercise.ipynb
+
+- class: 5
+  presentation: /presentations/5.pdf
+  notes: /notes/5.pdf
+  topics:
     - title: Портфельная теория Марковица.
       practicum_title: Оптимизация финансового портфеля на примере реальных данных фондового рынка.
       practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Portfolio_optimization.ipynb
+    - title: "Условия оптимальности: безусловная оптимизация и оптимизация с ограничениями типа равенств."
+      practicum_title: Решение задачи наименьших квадратов.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/sber219/blob/main/notebooks/5_2.ipynb
+    - title: "Условия оптимальности: оптимизация с ограничениями типа неравенств. Условия Каруша-Куна-Таккера"
+      practicum_title: Аналитическое решение задач оптимизации.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/sber219/blob/main/notebooks/5_1.ipynb

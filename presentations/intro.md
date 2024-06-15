@@ -12,6 +12,8 @@ format:
         section-titles: false
         incremental: true
         include-in-header: ../files/header.tex  # Custom LaTeX commands and preamble
+header-includes:
+  - \newcommand{\bgimage}{../files/back.png}
 ---
 
 # Gradient Descent roots
