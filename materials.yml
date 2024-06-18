@@ -64,3 +64,17 @@
     - title: "Условия оптимальности: оптимизация с ограничениями типа неравенств. Условия Каруша-Куна-Таккера"
       practicum_title: Аналитическое решение задач оптимизации.
       practicum_url: https://colab.research.google.com/github/MerkulovDaniil/sber219/blob/main/notebooks/5_1.ipynb
+
+- class: 6
+  presentation: /presentations/6.pdf
+  notes: /notes/6.pdf
+  topics:
+    - title: Задача линейного программирования.
+      practicum_title: Построение простейшей рекомендательной системы для просмотра TED видеороликов как задача линейного программирования. Практика с библиотекой pulp.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/LP_Recsys_with_PuLP_exercise.ipynb
+    - title: Симплекс метод.
+      practicum_title: Планирование производства как задача линейного программирования в PyOMO.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/LP_Covers_manufacturing_exercise.ipynb
+    - title: Введение в Mixed Integer Programming.
+      practicum_title: Реализация решения задачи о рюкзаке и о расстановке королев на шахматной доске.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/MIP_Exercise.ipynb
