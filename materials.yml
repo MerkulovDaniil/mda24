@@ -78,3 +78,17 @@
     - title: Введение в Mixed Integer Programming.
       practicum_title: Реализация решения задачи о рюкзаке и о расстановке королев на шахматной доске.
       practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/MIP_Exercise.ipynb
+
+- class: 7
+  presentation: /presentations/7.pdf
+  notes: /notes/7.pdf
+  topics:
+    - title: Оптимизация без производных и задачи глобальной оптимизации.
+      practicum_title: Подбор гиперпараметров модели машинного обучения в Keras с помощью Optuna.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/sber219/blob/main/notebooks/4_2.ipynb
+    - title: Линейный поиск.
+      practicum_title: Исследование разных стратегий линейного поиска для градиентного спуска.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/ls_exercise.ipynb
+    - title: Градиентный спуск и ускоренные методы - метод тяжелого шарика. Ускоренный метод Нестерова.
+      practicum_title: Исследование работы градиентных методов в задаче бинарной логистической регрессии.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/AGD_exercise.ipynb
