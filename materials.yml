@@ -87,8 +87,33 @@
       practicum_title: Подбор гиперпараметров модели машинного обучения в Keras с помощью Optuna.
       practicum_url: https://colab.research.google.com/github/MerkulovDaniil/sber219/blob/main/notebooks/4_2.ipynb
     - title: Линейный поиск.
-      practicum_title: Исследование разных стратегий линейного поиска для градиентного спуска.
+      practicum_title: Исследование разных стратегий линейного поиска для градиентного спуска. Наискорейший спуск.
       practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/ls_exercise.ipynb
+
+- class: 8
+  presentation: /presentations/8.pdf
+  notes: /notes/8.pdf
+  topics:
     - title: Градиентный спуск и ускоренные методы - метод тяжелого шарика. Ускоренный метод Нестерова.
       practicum_title: Исследование работы градиентных методов в задаче бинарной логистической регрессии.
       practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/AGD_exercise.ipynb
+    - title: Особенности негладкой оптимизации. Субградиентный метод. Проксимальный градиентный метод. 
+      practicum_title: Исследование работы градиентных методов в задаче многоклассовой (softmax) логистической регрессии с $\ell_1$-регуляризацией.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Softmax_l1_exercise.ipynb
+    - title: Метод Ньютона и квазиньютоновские методы.
+      practicum_title: Реализация метода градиентного спуска и метода Ньютона, иследование их численных свойств в задаче выбора оптимальных координат постройки базвых станций.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Hobbit_village.ipynb
+
+- class: 9
+  presentation: /presentations/9.pdf
+  notes: /notes/9.pdf
+  topics:
+    - title: Стохастический градиентный спуск. Батчи и эпохи.
+      practicum_title: 
+      practicum_url: 
+    - title: Продвинутые стохастические градиентные методы. Методы уменьшения дисперсии. Адаптивные методы.
+      practicum_title: 
+      practicum_url: 
+    - title: Обучение нейронных сетей с точки зрения методов оптимизации.
+      practicum_title: 
+      practicum_url: 
