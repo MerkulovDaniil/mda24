@@ -100,20 +100,31 @@
     - title: Особенности негладкой оптимизации. Субградиентный метод. Проксимальный градиентный метод. 
       practicum_title: Исследование работы градиентных методов в задаче многоклассовой (softmax) логистической регрессии с $\ell_1$-регуляризацией.
       practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Softmax_l1_exercise.ipynb
-    - title: Метод Ньютона и квазиньютоновские методы.
-      practicum_title: Реализация метода градиентного спуска и метода Ньютона, иследование их численных свойств в задаче выбора оптимальных координат постройки базвых станций.
-      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Hobbit_village.ipynb
-
+ 
 - class: 9
   presentation: /presentations/9.pdf
   notes: /notes/9.pdf
   topics:
     - title: Стохастический градиентный спуск. Батчи и эпохи.
-      practicum_title: 
-      practicum_url: 
+      practicum_title: Детектирование аномалий во временных рядах с помощью нейросетевого автоэнкодера.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/time_series_anomaly.ipynb
     - title: Продвинутые стохастические градиентные методы. Методы уменьшения дисперсии. Адаптивные методы.
-      practicum_title: 
-      practicum_url: 
+      practicum_title: Реализация методов снижения дисперсии для выпуклых и сильно выпуклых задач.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/VR_exercise.ipynb 
     - title: Обучение нейронных сетей с точки зрения методов оптимизации.
-      practicum_title: 
+      practicum_title: Визуализация проекции функции потерь нейронной сети на прямую и плоскость
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/sber219/blob/main/notebooks/10_3.ipynb
+
+- class: 10
+  presentation: /presentations/10.pdf
+  notes: /notes/10.pdf
+  topics:
+    - title: Обучение больших моделей.
+      practicum_title: Обучение самой большой языковой модели на одной видеокарте в колабе
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/TinyStories_baseline.ipynb
+    - title: Метод Ньютона и квазиньютоновские методы.
+      practicum_title: Реализация метода градиентного спуска и метода Ньютона, иследование их численных свойств в задаче выбора оптимальных координат постройки базвых станций.
+      practicum_url: https://colab.research.google.com/github/MerkulovDaniil/optim/blob/master/assets/Notebooks/Hobbit_village.ipynb
+    - title: Подведение итогов. Вопросы слушателей.
+      practicum_title:
       practicum_url: 
